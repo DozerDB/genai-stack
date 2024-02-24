@@ -31,7 +31,7 @@ services:
 
   database:
     user: neo4j:neo4j
-    image: graphstack/dozerdb:5.16.0.0-alpha.1
+    image: graphstack/dozerdb:5.17.0.0-alpha.1
     ports:
       - 7687:7687
       - 7474:7474
